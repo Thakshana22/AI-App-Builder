@@ -1,4 +1,4 @@
-# 🧠 AI App Builder (Agentic AI System)
+#  AI App Builder (Agentic AI System)
 
 An advanced **Agent-Based AI Application Builder** that autonomously plans, designs, and generates applications using Large Language Models (LLMs).
 
@@ -6,51 +6,51 @@ This project demonstrates a **multi-agent orchestration system** built with Lang
 
 ---
 
-## 🚀 Key Highlights
+##  Key Highlights
 
-* 🔁 Multi-Agent Architecture (Planner → Architect → Coder)
-* 🧠 LLM-driven structured planning using typed outputs
-* 🛠️ Tool-augmented AI (file system operations)
-* 🔄 Iterative code generation loop
-* ⚙️ State-based workflow management using LangGraph
+*  Multi-Agent Architecture (Planner → Architect → Coder)
+*  LLM-driven structured planning using typed outputs
+*  Tool-augmented AI (file system operations)
+*  Iterative code generation loop
+*  State-based workflow management using LangGraph
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 This project follows an **Agentic AI Pipeline**:
 
 ```
 User Prompt
     ↓
-🧠 Planner Agent
+ Planner Agent
     ↓
-🏗️ Architect Agent
+ Architect Agent
     ↓
-💻 Coder Agent (loop)
+ Coder Agent (loop)
     ↓
 Generated Project Files
 ```
 
 ---
 
-## 🤖 Agents Explained
+##  Agents Explained
 
-### 🧠 Planner Agent
+###  Planner Agent
 
 * Converts user input into a structured **Plan**
 * Uses LLM with structured output parsing
 
 ---
 
-### 🏗️ Architect Agent
+###  Architect Agent
 
 * Transforms Plan → **TaskPlan**
 * Breaks system into executable steps
 
 ---
 
-### 💻 Coder Agent
+###  Coder Agent
 
 * Executes tasks step-by-step
 * Uses tools:
@@ -63,7 +63,7 @@ Generated Project Files
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python
 * LangGraph
@@ -74,7 +74,7 @@ Generated Project Files
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 All dependencies are managed using:
 
@@ -90,7 +90,7 @@ uv sync
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 AI_SE/
@@ -113,7 +113,7 @@ AI_SE/
 
 ---
 
-## 🔄 Workflow (How it works)
+##  Workflow (How it works)
 
 1. User provides a prompt
    Example:
@@ -134,7 +134,7 @@ AI_SE/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Clone repository
 
@@ -186,7 +186,7 @@ python main.py
 
 ---
 
-## 🧪 Example Usage
+##  Example Usage
 
 ```python
 agent.invoke({
@@ -194,7 +194,7 @@ agent.invoke({
 })
 ```
 
-👉 Output:
+ Output:
 
 * HTML
 * CSS
@@ -202,15 +202,15 @@ agent.invoke({
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
-* 🚫 No frontend (backend AI system only)
-* 🔐 `.env` is excluded for security
-* 🔁 Requires valid API keys (Groq / Gemini)
+*  No frontend (backend AI system only)
+*  `.env` is excluded for security
+*  Requires valid API keys (Groq / Gemini)
 
 ---
 
-## 🎯 Project Purpose
+##  Project Purpose
 
 This project is designed to:
 
@@ -220,7 +220,7 @@ This project is designed to:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add frontend UI
 * Deploy as web application
@@ -229,7 +229,7 @@ This project is designed to:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Thakshana Lakruwan**
 Data Science Undergraduate
@@ -237,7 +237,7 @@ Aspiring ML / AI Engineer
 
 ---
 
-## ⭐ Why This Project Matters
+##  Why This Project Matters
 
 This project demonstrates:
 
